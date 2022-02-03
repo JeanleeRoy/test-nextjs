@@ -19,6 +19,16 @@ export default () => {
                     <a>Contact</a>
                 </Link>
             </li>
+            <li>
+                <Link as="/post/first-post" href="/post/[id]">
+                    <a>First post</a>
+                </Link>
+            </li>
+            <li>
+                <Link as="/post/second-post" href="/post/[id]">
+                    <a>Second post</a>
+                </Link>
+            </li>
         </ul>
     </header>
     )
